@@ -1,0 +1,48 @@
+.footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    padding: 40px 0;
+    background: rgba(0, 0, 0, 0.738);
+}
+
+.footer .social {
+    text-align: center;
+    padding-bottom: 20px;
+    color: var(--main-color);
+}
+
+.all-icon {
+    font-size: 25px;
+    color: var(--main-color);
+    border: 2px solid var(--main-color);
+    width: 42px;
+    height: 42px;
+    line-height: 42px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    margin: 5px;
+    transition: 0.3s ease-in-out;
+}
+
+
+.all-icon:hover {
+    transform: scale(1.2) translateY(-10px);
+    background: var(--main-color);
+    color: #131313;
+    box-shadow: 0 0 25px var(--main-color);
+}
+
+.footer .copyright {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 16px;
+    color: white;
+}
+
+@media (max-width:991px) {
+    .footer {
+        padding: 40px;
+    }
+}

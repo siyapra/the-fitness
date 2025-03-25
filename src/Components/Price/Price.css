@@ -1,0 +1,69 @@
+.plans {
+    background: rgba(0, 0, 0, 0.863);
+}
+
+.plans-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+    align-items: center;
+    gap: 2.3rem;
+    margin: 66px 80px 0px 80px;;
+}
+
+.box {
+    padding: 30px 65px 50px 65px;
+    height: 35rem;
+    background: rgba(0, 0, 0, 0.863);
+    border-radius: 28px;
+    border: 1px solid transparent;
+    box-shadow: 0 0 5px var(--main-color);
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+
+.box h3 {
+    font-size: 35px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.box h2 {
+    font-size: 43px;
+    font-weight: 700;
+    margin-bottom: 20px;
+
+}
+
+.box ul li {
+    list-style: disc;
+    font-size: 1.7rem;
+    padding-bottom: 1.2rem;
+    color: white;
+    border: none;
+}
+
+.box a {
+    display: inline-block;
+    font-size: 22px;
+    line-height: 1.2rem;
+    font-weight: 700;
+    padding: 7px 0;
+    color: white;
+    border-bottom: 2px solid #5d6c83;
+    transition: all 0.5s ease;
+}
+
+/* .box {
+    vertical-align: middle;
+    font-size: 25px;
+    color: var(--main-color);
+    margin-left: 5px;
+} */
+.box a:hover {
+    border: 2px solid var(--main-color);
+}
+
+.box:hover {
+    border: 1px solid var(--main-color);
+    transform: translateY(-5px) scale(1.03);
+}

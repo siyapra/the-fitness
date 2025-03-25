@@ -1,0 +1,102 @@
+.main-header {
+    position: relative;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 100;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 9%;
+    background: rgba(0, 0, 0, 0.863);
+    backdrop-filter: blur(10px);
+    transition: all 0.5s ease;
+}
+
+.logo {
+    font-size: 3rem;
+    color: white;
+    font-weight: 800;
+    transition: 0.3s ease-in-out;
+}
+
+.logo:hover {
+    transform: scale(1.1);
+}
+
+span {
+    color: var(--main-color);
+}
+
+.nav-link {
+    display: flex;
+}
+
+.nav-link a {
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: white;
+    margin-left: 4rem;
+    transition: all 0.5s ease;
+    border-bottom: 3px solid transparent;
+}
+
+.nav-link a:hover,
+.nav-link a:active {
+    color: var(--main-color);
+    border-bottom: 3px solid var(--main-color);
+}
+
+.nav-log {
+    display: inline-block;
+    padding: 1rem 2.8rem;
+    background: transparent;
+    color: var(--main-color);
+    border: 2px solid var(--main-color);
+    border-radius: 1rem;
+    font-size: 1.6rem;
+    font-weight: 600;
+    transition: all 0.5 ease;
+}
+
+.nav-log:hover {
+    background-color: var(--main-color);
+    color: white;
+    box-shadow: 0 0 18px var(--main-color);
+}
+
+#menu-icon {
+    font-size: 3.6rem;
+    color: var(--main-color);
+    cursor: pointer;
+    display: none;
+}
+
+@media (max-width:991px) {
+    #menu-icon {
+        display: block;
+    }
+
+    .nav-link {
+        position: absolute;
+        top: 100%;
+        right: -100%;
+        width: 255px;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        background: var(--bg-color);
+        transition: all 0.5s ease;
+    }
+
+    .nav-link a {
+        display: block;
+        padding: 17px;
+        font-size: 22px;
+    }
+
+    .nav-link .active {
+        right: 0;
+    }
+
+}
