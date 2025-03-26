@@ -68,3 +68,15 @@
         margin-bottom: 3rem;
     }
 }
+
+@media (max-width:617px) {
+    .services-content {
+        display: grid;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .services h2 {
+        font-size: 60px;
+    }
+}
