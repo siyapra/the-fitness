@@ -54,18 +54,21 @@
 }
 
 @media (max-width:991px) {
-    .about{
+    .about {
         display: grid;
     }
+
     .about-content {
         margin-top: 2rem;
         text-align: center;
         font-size: 5rem;
     }
-   .about-img img{
+
+    .about-img img {
         width: 600PX;
     }
-    .about-content h2{
+
+    .about-content h2 {
         text-align: center;
     }
 }
@@ -90,7 +93,7 @@
 }
 
 @media (max-width:617px) {
-   
+
     .about-img img {
         margin: 0 0 0 70px;
         text-align: center;
@@ -105,4 +108,8 @@
         margin-top: 4rem;
     }
 
+    .about-content p {
+        font-size: 15px;
+        gap: 1px;
+    }
 }

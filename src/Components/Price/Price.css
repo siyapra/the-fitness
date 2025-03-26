@@ -74,7 +74,10 @@
     align-items: center;
    }
 
-    .services h2 {
-        font-size: 60px;
+    
+    .box h2{
+        display: flex;
+        justify-content: center;
+        
     }
 }
