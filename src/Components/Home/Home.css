@@ -111,8 +111,14 @@ span {
         width: 70vw;
         margin-top: 8rem;
     }
+    .home-contact h3{
+        font-size: 40px;
+    }
+    .home-contact h1{
+        font-size: 30px;
+    }
     .home-contact p{
-        font-size: 12px;
+        font-size: 10px;
         text-align: center;
     }
     .btn{
