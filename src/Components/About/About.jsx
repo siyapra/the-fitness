@@ -1,6 +1,7 @@
 import React from 'react'
 import '../About/About.css'
 import run from '../../assets/abs.webp'
+
 const About = () => {
     return (
         <div className='about' id='about'>

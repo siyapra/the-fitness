@@ -66,6 +66,7 @@
 
     .about-img img {
         width: 600PX;
+        margin-left: 30px;
     }
 
     .about-content h2 {
@@ -79,7 +80,7 @@
     }
 
     .about-img img {
-        width: 70vw;
+        width: 80vw;
         margin-top: 4rem;
     }
 

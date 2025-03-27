@@ -3,8 +3,8 @@ import '../Services/Services.css'
 import aram from '../../assets/scot.jpg'
 import weight from '../../assets/weight.jpeg'
 import gym from '../../assets/gym.jpeg'
-import abs from '../../assets/abs.webp'
-import gain from '../../assets/gaim.jpeg'
+import abs from '../../assets/my2.avif'
+import gain from '../../assets/my1.avif'
 import running from '../../assets/running.jpeg'
 
 
@@ -28,8 +28,10 @@ const Services = () => {
           <img src={gym} alt="" />
           <h4> Strength Training</h4>
         </div>
+      </div>
 
-        <div className='row'>
+      <div className='services-cont'>
+      <div className='row'>
           <img src={abs} alt="/" />
           <h4> Fat Loss</h4>
         </div>
