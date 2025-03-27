@@ -103,7 +103,7 @@ span {
 }
 @media (max-width:991px) {
     .home-contact{
-        margin: 0 0 0 30px;
+        text-align: center;
     }
 }
 @media (max-width:617px) {
