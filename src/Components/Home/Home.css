@@ -108,11 +108,12 @@ span {
 }
 @media (max-width:617px) {
     .home-img img {
-        width: 80vw;
+        width: 70vw;
         margin-top: 8rem;
     }
     .home-contact p{
         font-size: 12px;
+        text-align: center;
     }
     .btn{
         margin-bottom: 20px;
