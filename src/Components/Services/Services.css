@@ -54,12 +54,23 @@
     cursor: pointer;
 }
 
-/* .set-box {
-    display: ruby;
-} */
+.span {
+    padding: 0 0 0 10px;
+}
+
+@media (max-width:1200px) {
+    .services-content {
+        padding: 0 0 0 40px;
+    }
+}
+
 @media (max-width:991px) {
     .services {
         padding: 7rem;
+    }
+
+    .services-content {
+        padding: 50px;
     }
 }
 

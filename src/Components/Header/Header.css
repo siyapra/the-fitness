@@ -81,7 +81,6 @@ span {
         position: absolute;
         top: 100%;
         right: -100%;
-        width: 255px;
         min-height: 100vh;
         display: flex;
         flex-direction: column;
@@ -100,3 +99,15 @@ span {
     }
 
 }
+@media (max-width:617px) {
+    .nav-link a {
+        display: none;
+    }
+}
+@media (max-width:417px) {
+    .nav-link a {
+        display: none;
+    }
+}
+
+

@@ -11,7 +11,7 @@ import running from '../../assets/running.jpeg'
 const Services = () => {
   return (
     <div className='services' id='sevices'>
-      <h2 className='heading'>Our<span>Services</span></h2>
+      <h2 className='heading'>Our<span className='span'>Services</span></h2>
 
       <div className='services-content'>
         <div className='row'>
@@ -41,11 +41,9 @@ const Services = () => {
 
         <div className='row'>
           <img src={running} alt="/" />
-          {/* <h4>Running</h4>
-            </div> */}
+          <h4>Running</h4>
         </div>
       </div>
-      {/* </div> */}
     </div>
   )
 }

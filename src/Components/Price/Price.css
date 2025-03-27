@@ -7,7 +7,8 @@
     grid-template-columns: repeat(auto-fit, minmax(300px, auto));
     align-items: center;
     gap: 2.3rem;
-    margin: 66px 80px 0px 80px;;
+    margin: 66px 80px 0px 80px;
+    ;
 }
 
 .box {
@@ -67,17 +68,18 @@
     border: 1px solid var(--main-color);
     transform: translateY(-5px) scale(1.03);
 }
-@media (max-width:617px) {
-   .plans-content{
-    display: grid;
-    justify-content: center;
-    align-items: center;
-   }
 
-    
-    .box h2{
+@media (max-width:617px) {
+    .plans-content {
+        display: grid;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .box h2 {
         display: flex;
         justify-content: center;
-        
+
     }
 }
